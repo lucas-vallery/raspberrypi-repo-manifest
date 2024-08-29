@@ -16,7 +16,7 @@ To check out the repository listed in the default.xml file please run the follow
 
 * Create a directory and run this command once:
     ```bash
-    repo init https://github.com/lucas-vallery/raspberrypi-zero-manifest
+    repo init https://github.com/lucas-vallery/raspberrypi-zero-manifest -m manifest.xml -b kirkstone
     ```
 
 * Download the sources with this command:

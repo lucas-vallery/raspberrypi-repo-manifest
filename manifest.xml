@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="yocto"             fetch="https://git.yoctoproject.org"/>
+    <remote name="openembedded"     fetch="https://git.openembedded.org"/>
+
+    <project remote="yocto"             name="poky"                                                       revision="6d1a878bbf24c66f7186b270f823fcdf82e35383"/>
+    <project remote="openembedded"      name="meta-openembedded"    path="poky/meta-openembedded"         revision="fda737ec0cc1d2a5217548a560074a8e4d5ec580"/>
+    <project remote="yocto"             name="meta-raspberrypi"     path="poky/meta-raspberrypi"          revision="9dc6673d41044f1174551120ce63501421dbcd85"/>
+
+    
+</manifest>
